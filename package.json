@@ -38,10 +38,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/simple-review-ia.git"
+    "url": "git+https://github.com/vancinis/simple-review-ia.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/simple-review-ia/issues"
+    "url": "https://github.com/vancinis/simple-review-ia/issues"
   },
-  "homepage": "https://github.com/yourusername/simple-review-ia#readme"
+  "homepage": "https://github.com/vancinis/simple-review-ia#readme"
 }
