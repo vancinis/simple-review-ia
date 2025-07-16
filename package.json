@@ -1,0 +1,47 @@
+{
+  "name": "simple-review-ia",
+  "version": "1.0.0",
+  "description": "A lightweight package to generate friendly summaries from reviews using AI models",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "example": "node example.js"
+  },
+  "keywords": [
+    "ai",
+    "reviews",
+    "summary",
+    "gemini",
+    "openai",
+    "chatgpt",
+    "nlp"
+  ],
+  "author": "Ariel Pérez",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.0",
+    "openai": "^4.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/simple-review-ia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/simple-review-ia/issues"
+  },
+  "homepage": "https://github.com/yourusername/simple-review-ia#readme"
+}
